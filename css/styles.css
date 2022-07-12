@@ -1,10 +1,87 @@
-/* ======= navigation ======== */
-/* ======= navigation ======== */ 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/* ======= header ======== */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-right: 85px;
+}
+
+.logo-Web {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+
+.logo-studiont {
+    color: #000;
+}
+.menu-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+
+.contact {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #2196F3;
+}
+/* ======= header ======== */
 
 /* ======= hero ======== */
+.modal-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0.53;
+    background-color: #188CE8;
+    color: #FFFFFF;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
 /* ======= hero ======== */
 
 /* ======= principle of operation ======== */
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 /* ======= principle of operation ======== */
 
 /* ======= occupation ======== */
@@ -13,5 +90,22 @@
 /* ======= team ======== */
 /* ======= team ======== */
 
-/* ======= main navigation ======== */
-/* ======= main navigation ======== */
+/* ======= footer ======== */
+.foot {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    /* color: #FFFFFF */
+}
+
+.foot-a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    /* color: #FFFFFF */
+}
+/* ======= footer ======== */
