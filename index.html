@@ -13,13 +13,10 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <!-- Header -->
+  <body class="body">
+    <!-- header -->
     <header class="header">
-      <a class="logo">
-        <span class="logo-Web">Web</span>
-        <span class="logo-studio">Studio</span>
-      </a>
+      <a class="logo link">Web<span class="logo-studio">Studio</span></a>
       <nav class="nav">
         <ul class="menu list">
           <li class="menu-item">
@@ -35,18 +32,20 @@
       </nav>
       <ul class="list">
         <li>
-          <a class="link contact" href="mailto:info@devstudio.com"
+          <a class="contacts-head link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contacts-head link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
+    <!-- Main hero -->
     <main>
-      <!-- hero -->
-      <section class="main-hero">
+      <section class="hero">
         <h1 class="hero-title">
           Эффективные решения
           <br />
@@ -54,9 +53,8 @@
         </h1>
         <button class="modal-btn" type="button">Заказать услугу</button>
       </section>
-      <!-- principle of operation -->
       <section>
-        <h2>Принципи</h2>
+        <h2 hidden>Принципи</h2>
         <ul class="list">
           <li>
             <h3 class="title-operation">Внимание к деталям</h3>
@@ -74,7 +72,7 @@
           </li>
           <li>
             <h3 class="title-operation">Планирование</h3>
-            <p class="detitle-operation">
+            <p class="description-operation">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -90,7 +88,7 @@
       </section>
       <!-- occupation -->
       <section>
-        <h2 class="title-occupation">Чем мы занимаемся</h2>
+        <h2 class="second-occupation">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img
@@ -119,8 +117,8 @@
         </ul>
       </section>
       <!-- team -->
-      <section>
-        <h2 class="title-team">Наша команда</h2>
+      <section class="team">
+        <h2 class="second-occupation">Наша команда</h2>
         <ul class="list">
           <li>
             <img
@@ -129,8 +127,8 @@
               width="270"
               height="260"
             />
-            <h3 class="empl">Игорь Демьяненко</h3>
-            <p class="description-team" lang="en">Product Designer</p>
+            <h3 class="team-description-title">Игорь Демьяненко</h3>
+            <p class="team-description-item" lang="en">Product Designer</p>
           </li>
           <li>
             <img
@@ -139,8 +137,8 @@
               width="270"
               height="260"
             />
-            <h3 class="empl">Ольга Репина</h3>
-            <p class="description-team" lang="en">Frontend Developer</p>
+            <h3 class="team-description-title">Ольга Репина</h3>
+            <p class="team-description-item" lang="en">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -149,8 +147,8 @@
               width="270"
               height="260"
             />
-            <h3 class="empl">Николай Тарасов</h3>
-            <p class="description-team" lang="en">Marketing</p>
+            <h3 class="team-description-title">Николай Тарасов</h3>
+            <p class="team-description-item" lang="en">Marketing</p>
           </li>
           <li>
             <img
@@ -159,23 +157,22 @@
               width="270"
               height="260"
             />
-            <h3 class="empl">Михаил Ермаков</h3>
-            <p class="description-team" lang="en">UI Designer</p>
+            <h3 class="team-description-title">Михаил Ермаков</h3>
+            <p class="team-description-item" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- footer -->
-    <footer>
-      <a class="logo link" href="/">
-        <span class="logo-Web">Web</span>
-        <span class="logo-studio">Studio</span>
-      </a>
-      <address>
+    <footer class="footer">
+      <a class="logo link" href="/"
+        >Web<span class="logo-footer">Studio</span></a
+      >
+      <address class="address">
         <ul class="list">
           <li>
             <a
-              class="link foot-a"
+              class="link"
               href="https://goo.gl/maps/eCd9pNnfb7Bx4vSe9"
               target="_blank"
               rel="noopener noreferer"
