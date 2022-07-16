@@ -47,8 +47,8 @@
   letter-spacing: 0.02em;
 }
 
-.menu-item:hover,
-.menu-item:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: var(--accent-color);
 }
 
