@@ -173,6 +173,16 @@
 
 /* ============= footer ============= */
 
+.goo-foot {
+color:var(--primary-text-color-dark-theme);
+}
+
+.goo-foot:hover,
+.goo-foot:focus {
+  color: var(--accent-color);
+}
+
+
 .footer {
   background-color: #2f303a;
 }
